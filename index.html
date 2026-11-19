@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de nico 6°2</title>
+    <link rel="stylesheet" href="coflix.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="nav-container">
+            <a href="#" class="logo">Nico paez</a>
+            <nav class="nav-links">
+                <a href="#sobre-mi">Sobre mí</a>
+                <a href="#proyectos">Proyectos</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#inspiracion" class="nav-highlight">Inspiración</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+            <button id="theme-toggle" aria-label="Cambiar tema">🌙</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <img src="WIN_20251027_15_39_56_Pro.jpg" alt="Foto de perfil" class="profile-img">
+                <h1>Hola, soy <span class="highlight">Nico Paez</span></h1>
+                <h2>Estudiante de Programación</h2>
+                <p class="tagline">Apasionado del desarrollo web y la creación E-commerce.</p>
+                <div class="hero-buttons">
+                    <a href="#proyectos" class="btn primary-btn">Ver Mis Proyectos</a>
+                    <a href="#contacto" class="btn secondary-btn">Contactame</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre-mi" class="section">
+            <h2 class="section-title">Sobre Mí</h2>
+            <div class="about-card">
+                <p>
+                    Actualmente estoy cursando sexto año en la <strong>E.E.S.T. N° 5</strong> en la división 6°2. Me especializo en el desarrollo de software y aplicaciones web interactivas. Disfruto resolviendo problemas y mas si es en equipo. Tambien me especializo con lo que es Arduino, el hardware de una computadora, figma, CSS y más.
+                </p>
+            </div>
+        </section>
+
+        <section id="proyectos" class="section">
+            <h2 class="section-title">Proyectos Destacados</h2>
+            <div class="projects-grid">
+                <article class="proyecto-card">
+                    <img src="FT ERBAKE.png" alt="Captura Tienda Dinámica">
+                    <div class="proyecto-info">
+                        <h3>E-commerce (2026)</h3>
+                        <p>Catálogo de productos e interfaz interactiva</p>
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                        <a href="https://stirring-cactus-660365.netlify.app" target="_blank" class="project-link">Ver ↗</a>
+                    </div>
+                </article>
+
+                <article class="proyecto-card">
+                    <img src="Captura de pantalla 2026-11-17 161658.png" alt="Captura Calculadora JS">
+                    <div class="proyecto-info">
+                        <h3>Calculadora Interactiva JS (2026)</h3>
+                        <p>Aplicación web de cálculo.</p>
+                        <div class="tags">
+                            <span>HTML5</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="https://serene-cascaron-a00be6.netlify.app" target="_blank" class="project-link">Ver ↗</a>
+                    </div>
+                </article>
+
+                <article class="proyecto-card">
+                    <img src="michardium.png" alt="Captura Tienda Maquetado">
+                    <div class="proyecto-info">
+                        <h3>Tienda dinamica (2026)</h3>
+                        <p>Tienda dinamica con multiples productos para ver y comprar.</p>
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS </span>
+                        </div>
+                        <a href="https://chic-marigold-2a6d3c.netlify.app" target="_blank" class="project-link">Ver ↗</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="habilidades" class="section">
+            <h2 class="section-title">Habilidades y Tecnologías</h2>
+            <div class="skills-container">
+                <div class="skill-badge">HTML</div>
+                <div class="skill-badge">CSS</div>
+                <div class="skill-badge">JavaScript</div>
+                <div class="skill-badge">Python</div>
+                <div class="skill-badge">PHP & MySQL</div>
+                <div class="skill-badge">Cisco Packet Tracer</div>
+                <div class="skill-badge">Seguridad Informática</div>
+                <div class="skill-badge">Figma</div>
+            </div>
+        </section>
+
+        <section id="inspiracion" class="section">
+            <h2 class="section-title">Fuentes de Inspiración</h2>
+            <p class="inspiration-intro">Sitios y plantillas que tomé como referencia para el diseño de mi portfolio.</p>
+            
+            <div class="inspiration-grid">
+                <article class="inspo-card">
+                    <span class="inspo-category">Diseño Web</span>
+                    <h3>Plantilla Envato 1</h3>
+                    <p>Referencia de layout y estructuración visual de componentes.</p>
+                    <div class="inspo-actions">
+                        <a href="https://app.envato.com/web-templates/08b3825b-5239-423f-9994-75d89e132df6" target="_blank" class="inspo-link">Visitar sitio ↗</a>
+                    </div>
+                </article>
+
+                <article class="inspo-card">
+                    <span class="inspo-category">Diseño Web</span>
+                    <h3>Plantilla Envato 2</h3>
+                    <p>Referencia de estilos y colores.</p>
+                    <div class="inspo-actions">
+                        <a href="https://app.envato.com/web-templates/aae0a59e-f963-4914-bd04-ad30a3cfd57b" target="_blank" class="inspo-link">Visitar sitio ↗</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="contacto" class="section">
+            <h2 class="section-title">Contacto</h2>
+            <div class="contact-wrapper">
+                <form id="contact-form" action="https://formspree.io/f/maeobvwg" method="POST" class="contact-form">
+                    
+                    <div class="form-group">
+                        <label for="nombre">Nombre completo</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" placeholder="tu@email.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribí tu mensaje aca (mínimo 10 caracteres)..." required></textarea>
+                    </div>
+
+                    <div id="form-error" class="error-message"></div>
+                    <div id="form-success" class="success-message"></div>
+
+                    <button type="submit" class="btn primary-btn submit-btn">Enviar Mensaje</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2026 - E.E.S.T. N° 5 - Desarrollo de Aplicaciones Web Dinámicas</p>
+        <p><a href="#inspiracion" class="inspiration-link">💡 ¿En qué me inspiré para este proyecto?</a></p>
+    </footer>
+
+    <script src="cuscu.js"></script>
+</body>
+</html>
